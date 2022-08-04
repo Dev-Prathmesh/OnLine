@@ -9,7 +9,9 @@ include('session.php');
 
 <body>
    <h1>Welcome</h1> 
-   <h2><a href = "logout.php">Sign Out</a></h2>
+   <h2><a href = "logout.php">Logout</a></h2>
+   <?php
+   echo $row['username'];
+?>
 </body>
-
 </html>

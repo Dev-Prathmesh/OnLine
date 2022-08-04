@@ -69,3 +69,21 @@
       width: 100%;
     }
   } 
+  /*home page css*/
+  .nav{
+    background-color:black;
+    /* position: fixed; */
+    }
+    /* .nav-button-grp{
+        float: right;
+        padding-left:900px; 
+    }    
+    */
+    header{
+      color: rgb(231, 20, 20);
+    }
+    body{
+      background-image: url("./../templates/assets/img/homepage-background.jpg");
+      background-repeat:no-repeat;
+       background-size:cover;
+    }
