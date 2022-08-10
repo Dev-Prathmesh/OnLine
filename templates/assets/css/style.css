@@ -1,7 +1,7 @@
  /* Bordered form */
- form {
+ /* form {
     border: 3px solid #f1f1f1;
-  }
+  } */
   
   /* Full-width inputs */
   input[type=text], input[type=password] {
@@ -69,3 +69,20 @@
       width: 100%;
     }
   } 
+  /*home page css*/
+  
+    /* .nav-button-grp{
+        float: right;
+        padding-left:900px; 
+    }    
+    */
+   #navbar{
+      background-color: black !important;
+    }
+    header{
+      color: rgb(231, 20, 20);
+    }
+    body{
+      background-color:white;
+
+    }
