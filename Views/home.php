@@ -54,13 +54,25 @@
               </div>
           </div>
         </nav>
-        <div class="container">
-  <div class="row justify-content-md-center">
-    <div class="col-md-auto p-2 mb-2 bg-dark text-white">
-      Electronics
-    </div>
-  </div>
-</div>
+        <div class="container mw-100">
+          <div class="row justify-content-md-center" id="Catgory-name">
+            <div class="col-md-auto p-2 mb-2 text-white ">
+              Electronics
+            </div>
+          </div>
+        </div>
+        <div class="d-flex container-fluid">
+          <div class="col-12">
+            <!-- <div class="row"> -->
+                 <div class="row mb-2"><?php
+                                    echo "<img src='../templates/assets/img/capture.png' >"; ?></div>
+                 <div class="row mb-2"><?php
+                                   echo "<img src='../templates/assets/img/Lays-Chips-Flavors.jpg' >"; ?></div>
+                 <div class="row mb-2"><?php
+                                   echo "<img src='../templates/assets/img/cosmatic.png' >"; ?></div>
+            <!-- </div> -->
+          </div>
+        </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
