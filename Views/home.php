@@ -61,18 +61,44 @@
             </div>
           </div>
         </div>
-        <div class="d-flex container-fluid">
-          <div class="col-12">
-            <!-- <div class="row"> -->
-                 <div class="row mb-2"><?php
-                                    echo "<img src='../templates/assets/img/capture.png' >"; ?></div>
-                 <div class="row mb-2"><?php
-                                   echo "<img src='../templates/assets/img/Lays-Chips-Flavors.jpg' >"; ?></div>
-                 <div class="row mb-2"><?php
-                                   echo "<img src='../templates/assets/img/cosmatic.png' >"; ?></div>
-            <!-- </div> -->
+        <div class="card-group">
+          <div class="card card-img-top">
+              <?php echo "<img src='../templates/assets/img/capture.png' >"; ?>    
+          </div>
+          <div class="card card-img-top">
+          <?php echo "<img src='../templates/assets/img/Lays-Chips-Flavors.jpg' >"; ?>
+          </div>
+          <div class="card card-img-top">
+          <?php echo "<img src='../templates/assets/img/cosmatic.png' >"; ?> 
           </div>
         </div>
+        <div class="card-group">
+              <div class="card card-img-top">
+              <?php echo "<img src='../templates/assets/img/branded-shirts.jpg' >"; ?> 
+              </div>
+              <div class="card card-img-top">
+              <?php echo "<img src='../templates/assets/img/laptop.png' >"; ?> 
+              </div>
+              <div class="card card-img-top">
+              <?php echo "<img src='../templates/assets/img/chair-image.png' >"; ?> 
+              </div>
+          </div>
+          <div class="card-group">
+              <div class="card card-img-top">
+              <?php echo "<img src='../templates/assets/img/Recharge.png' >"; ?> 
+              </div>
+              <div class="card card-img-top">
+              <?php echo "<img src='../templates/assets/img/Hardware-store.jpg' >"; ?> 
+              </div>
+              <div class="card card-img-top">
+              <?php echo "<img src='../templates/assets/img/toys.jpg' >"; ?> 
+              </div>
+          </div> 
+          <!-- <div class="container">
+              <div id="advertise" class="img-fluid">
+                  <?php echo "<img src='../templates/assets/img/PRATHMESH_LOGO.jpg' >"; ?> 
+              </div>
+          </div>  -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
