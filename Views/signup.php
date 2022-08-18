@@ -54,40 +54,43 @@
               </div>
           </div>
         </nav>
-        <div class="row h-100 w-100">
-            <div class="col sm-6"><?php
-                          echo "<img src='../templates/assets/img/ALL-11-05.png' >"; ?></div>
-            <div class="col h-100" id="Signup-form">
-              <h1 class="text-center">Signup as Customer</h1>
-                <form>
-                    <div class="form-group">
-                            <label for="exampleInputname1">Customer Name</label>
-                            <input type="text" class="form-control" id="Name" placeholder="Name">
-                    </div>
-                    <div class="form-group">
-                        <label for="Email">Email address</label>
-                        <input type="email" class="form-control" id="Email"  placeholder="Enter email">
-                    </div>
-                    <div class="form-group">
-                        <label for="examplePhoneNo">Phone number</label>
-                        <input type="text" class="form-control" id="PhoneNo" placeholder="Phone number">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword">Password</label>
-                        <input type="password" class="form-control" id="Password" placeholder="Password">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputConfirmPassword">Confirm Password</label>
-                        <input type="password" class="form-control" id="ConfirmPassword" placeholder="Confirm Password">
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="AgreementCheck1">
-                        <label class="form-check-label" for="exampleCheck1">I Agree to Terms & Conditions</label>
-                    </div>
-                    <div class="text-center">
-                       <button type="submit" class="btn btn-primary justify-content-md-center col-4">Signup</button>
-                    </div>
-                 </form>
-            </div>
+        <div class="container-fluid w-100 h-100">
+        <div class="row">
+              <div class="col sm-6"><?php
+                            echo" 
+                            <img class='img-fluid h-100'src='../templates/assets/img/ALL-11-05.png'>;"?></div>
+              <div class="col" id="Signup-form">
+                <h1 class="text-center">Signup as Customer</h1>
+                  <form>
+                      <div class="form-group">
+                              <label for="exampleInputname1">Customer Name</label>
+                              <input type="text" class="form-control" id="Name" placeholder="Name">
+                      </div>
+                      <div class="form-group">
+                          <label for="Email">Email address</label>
+                          <input type="email" class="form-control" id="Email"  placeholder="Enter email">
+                      </div>
+                      <div class="form-group">
+                          <label for="examplePhoneNo">Phone number</label>
+                          <input type="text" class="form-control" id="PhoneNo" placeholder="Phone number">
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleInputPassword">Password</label>
+                          <input type="password" class="form-control" id="Password" placeholder="Password">
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleInputConfirmPassword">Confirm Password</label>
+                          <input type="password" class="form-control" id="ConfirmPassword" placeholder="Confirm Password">
+                      </div>
+                      <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="AgreementCheck1">
+                          <label class="form-check-label" for="exampleCheck1">I Agree to Terms & Conditions</label>
+                      </div>
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-primary justify-content-md-center col-4">Signup</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
         </div>
     </body>
